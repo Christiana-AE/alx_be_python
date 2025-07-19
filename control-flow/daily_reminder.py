@@ -3,7 +3,7 @@ priority = input("Priority (high/medium/low): ")
 timed = input("Is it time-bound? (yes/no): ")
 
 match priority:
-    case _:
+    case "high" | "medium" | "low":
         if timed == "yes":
             print(f"{priority} is a high priority task that requires immediate attention today!")
         elif timed == "no":
