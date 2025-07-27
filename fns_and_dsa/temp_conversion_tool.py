@@ -8,7 +8,7 @@ def convert_to_fahrenheit(celsius):
     return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
 
 
-temperature = int(input(["Enter the temperature to covert:"]))
+temperature = int(input("Enter the temperature to covert:"))
 tempType = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().upper()
 
 if type(temperature) is not int:
